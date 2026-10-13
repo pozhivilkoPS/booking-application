@@ -1,0 +1,6 @@
+rootProject.name = 'booking-application'
+
+include 'gateway', 'service'
+
+project(':gateway').projectDir = file('backend/gateway')
+project(':service').projectDir = file('backend/service')

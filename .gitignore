@@ -2,6 +2,8 @@
 target/
 build/
 .gradle/
+out/
+HELP.md
 *.class
 *.jar
 !**/gradle/wrapper/gradle-wrapper.jar

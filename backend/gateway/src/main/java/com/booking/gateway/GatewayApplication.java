@@ -1,13 +1,13 @@
-package com.example.booking;
+package com.booking.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookingApplication {
+public class GatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BookingApplication.class, args);
+        SpringApplication.run(GatewayApplication.class, args);
     }
 
 }
